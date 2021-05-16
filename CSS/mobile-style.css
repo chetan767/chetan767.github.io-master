@@ -1,0 +1,123 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+        font-size: 1.4em;
+    }
+    header .nav-item {
+        padding: 0.5em;
+    }
+    header .nav-link {
+        font-size: 1em;
+    }
+    header .nav-link:hover {
+        transform: rotate(0deg);
+    }
+    header .row {
+        margin-left: 1em;
+    }
+    header .row .col-md-7 h1 {
+        color: white;
+        font-size: 1.5rem;
+    }
+    header .row .col-md-7 h4 {
+        color: white;
+        font-size: 1.1rem;
+        margin-right: 1.3em;
+    }
+    .header-ctr {
+        display: block;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .header-text h2 {
+        font-size: 28px;
+    }
+    header .btn {
+        border-radius: 30px;
+        margin-top: 0em;
+        font-weight: bold;
+    }
+    .rounded-circle {
+        width: 100%;
+        height: 100%;
+    }
+    .icon-row {
+        width: 100%;
+    }
+    .icon-row i {
+        border-radius: 4px;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px 20px;
+        transition: all 0ms ease-in-out;
+    }
+    .icon-row i:hover {
+        background: transparent;
+        color: white;
+    }
+    .abt {
+        font-size: smaller;
+    }
+    .sayhi {
+        display: none;
+    }
+    .bg-contact2 {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin-top: -80px;
+        margin-left: 0;
+    }
+    .prj {
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .edu-font {
+        font-size: 15px;
+    }
+    .btn-siz {
+        width: fit-content;
+        height: 25px;
+        margin-top: 2px;
+        padding: 8px;
+    }
+    .btn-sizf {
+        width: fit-content;
+        height: 25px;
+        margin-top: 2px;
+        margin-left: 0;
+        padding: 8px;
+    }
+    .pm {
+        margin-top: -6.5px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .rounded-circle {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 999px) {
+    .rounded-circle {
+        height: 65%;
+        width: 100%;
+    }
+    .btn-siz {
+        width: 25%;
+        margin-top: 0px;
+        margin-left: 5%;
+        padding: 0px;
+        height: 20px;
+    }
+    .btn-sizf {
+        width: 25%;
+        margin-top: 0px;
+        margin-left: 0;
+        padding: 0px;
+        height: 20px;
+    }
+}
